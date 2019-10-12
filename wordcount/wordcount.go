@@ -5,7 +5,7 @@ import (
 	"strings"
 )
 
-// Word Count...
+// Word Count ...
 func WordCount(s string) map[string]int {
 	m := make(map[string]int)
 	newS := strings.Split(s, " ")
@@ -16,7 +16,6 @@ func WordCount(s string) map[string]int {
 			m[newS[i]]++
 		}
 	}
-
 	fmt.Println(m)
 	return m
 
